@@ -1,0 +1,51 @@
+:root {
+    --primary-color: rgb(113, 113, 255);
+}
+
+.headercontainer {
+    background-color: white;
+}
+
+body {
+    margin: auto;
+    background-color: lightgrey;
+}
+
+header {
+    max-width: 99rem;
+    margin: auto;
+    padding: 0;
+    color: black;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    max-width: 100rem;
+}
+
+.navbarcontainer {
+    background-color: var(--primary-color);
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.leftside {
+    border-left: solid white 2px;
+    justify-content: flex-start;
+}
+
+.rightside {
+    border-right: solid white 2px;
+    justify-content: flex-end;
+}
+
+nav a:hover {
+    color: darkgrey;
+}
