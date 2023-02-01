@@ -1,9 +1,5 @@
 :root {
-    --primary-color: rgb(113, 113, 255);
-}
-
-.headercontainer {
-    background-color: white;
+    --primary-color: rgb(152, 152, 255);
 }
 
 body {
@@ -14,21 +10,21 @@ body {
 header {
     max-width: 99rem;
     margin: auto;
-    padding: 0;
+    padding: 1rem;
     color: black;
+    background-color: white;
 }
 
 nav {
     padding: 1rem;
     display: flex;
     max-width: 100rem;
+    justify-content: space-between;
 }
 
 .navbarcontainer {
     background-color: var(--primary-color);
 }
-
-
 
 nav a {
     color: white;
@@ -38,14 +34,18 @@ nav a {
 
 .leftside {
     border-left: solid white 2px;
-    justify-content: flex-start;
+    
 }
 
 .rightside {
     border-right: solid white 2px;
-    justify-content: flex-end;
 }
 
 nav a:hover {
     color: darkgrey;
+}
+
+.pics1 {
+    display: flex;
+    justify-content: flex-start;
 }
