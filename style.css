@@ -7,23 +7,23 @@ body {
     background-color: lightgrey;
 }
 
-header {
+header, nav {
     max-width: 99rem;
     margin: auto;
     padding: 1rem;
-    color: black;
+    box-sizing: border-box;
+    
+}
+header {
     background-color: white;
+    color: black;
 }
 
 nav {
     padding: 1rem;
     display: flex;
-    max-width: 100rem;
-    justify-content: space-between;
-}
-
-.navbarcontainer {
     background-color: var(--primary-color);
+    justify-content: space-between;
 }
 
 nav a {
@@ -34,18 +34,15 @@ nav a {
 
 .leftside {
     border-left: solid white 2px;
-    
-}
-
-.rightside {
-    border-right: solid white 2px;
 }
 
 nav a:hover {
     color: darkgrey;
+    margin: 0;
 }
 
-.pics1 {
-    display: flex;
-    justify-content: flex-start;
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
 }
