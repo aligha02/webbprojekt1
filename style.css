@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(152, 152, 255);
+    --primary-color: rgb(45, 37, 37);
 }
 
 body {
@@ -32,9 +32,7 @@ nav a {
     padding: 1rem;
 }
 
-.leftside {
-    border-left: solid white 2px;
-}
+
 
 nav a:hover {
     color: darkgrey;
@@ -45,4 +43,23 @@ nav a:hover {
     nav {
         flex-direction: column;
     }
+}
+
+.block1 {
+    margin: 2rem;
+    width: 15rem;
+    height: 15rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.lapcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.laptopshop {
+
 }
