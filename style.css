@@ -5,18 +5,23 @@
 body {
     margin: auto;
     background-color: lightgrey;
+
 }
 
-header, nav {
+header,
+nav {
     max-width: 99rem;
     margin: auto;
     padding: 1rem;
     box-sizing: border-box;
-    
+
 }
+
 header {
     background-color: white;
-    color: black;
+    color: white;
+    background: url(keyboard-5017973_1920.jpg);
+
 }
 
 nav {
@@ -32,11 +37,10 @@ nav a {
     padding: 1rem;
 }
 
-
-
 nav a:hover {
     color: darkgrey;
     margin: 0;
+    background: #fff;
 }
 
 @media (max-width: 600px) {
@@ -60,6 +64,87 @@ nav a:hover {
     justify-content: space-around;
 }
 
-.laptopshop {
+.blockcon {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.block2 {
+    margin: 2rem;
+    width: 15rem;
+    height: 15rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.blockcon2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.headsetcon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kundvagn {
+    color: rgb(229, 57, 57);
+    background-color: rgb(86, 37, 37);
+    text-decoration: none;
+}
+
+.kundvagn a:hover {
+    color: rgb(124, 27, 27);
+    margin: 0;
+    background: #fff;
+}
+
+.fotcontainer {
+    max-width: 99rem;
+    margin: auto;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 70px 0;
+}
+
+.footercol {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footercol a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footercol h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+
+.footercol .socialmedia a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footercol .socialmedia a:hover {
+    color: #24262b;
+    background-color: #ffffff;
 }
