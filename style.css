@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(45, 37, 37);
+    --primary-color: rgb(0, 0, 0);
 }
 
 body {
@@ -18,22 +18,19 @@ nav {
 }
 
 header {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     color: white;
-    background: url(keyboard-5017973_1920.jpg);
-
 }
 
 nav {
     padding: 1rem;
     display: flex;
     background-color: var(--primary-color);
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
     padding: 1rem;
 }
 
@@ -83,6 +80,7 @@ nav a:hover {
     display: flex;
     justify-content: space-evenly;
 }
+
 .headsetcon {
     display: flex;
     justify-content: space-around;
@@ -91,13 +89,50 @@ nav a:hover {
 .kundvagn {
     color: rgb(229, 57, 57);
     background-color: rgb(86, 37, 37);
-    text-decoration: none;
 }
 
 .kundvagn a:hover {
     color: rgb(124, 27, 27);
     margin: 0;
     background: #fff;
+}
+
+.welcometext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcometext2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60rem;
+}
+
+
+.attricon {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.attri1 {
+    margin: 0%;
+}
+
+.attri1 a {
+    color: rgb(77, 77, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.knapp {
+    margin: 0rem;
+    background-color: rgb(224, 103, 103);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(0, 0, 0);
 }
 
 .fotcontainer {
@@ -121,9 +156,9 @@ nav a:hover {
 }
 
 .footercol a {
-    text-decoration: none;
     color: whitesmoke;
 }
+
 .footercol h4 {
     font-size: 18px;
     color: #fff;
@@ -147,4 +182,10 @@ nav a:hover {
 .footercol .socialmedia a:hover {
     color: #24262b;
     background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
 }
